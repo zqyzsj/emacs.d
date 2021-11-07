@@ -132,6 +132,9 @@
 ;;(require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
+;; add my own mode: cc-mode
+(require 'init-cc)
+
 (require-package 'sudo-edit)
 (require-package 'gnuplot)
 (require-package 'lua-mode)
