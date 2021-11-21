@@ -149,6 +149,7 @@
 
 ;; add my own mode: cc-mode
 (require 'init-cc)
+(require 'init-proof-general)
 
 (require-package 'sudo-edit)
 (require-package 'gnuplot)
