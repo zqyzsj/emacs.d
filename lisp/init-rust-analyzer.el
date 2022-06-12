@@ -1,3 +1,6 @@
+(require-package 'use-package)
+(require-package 'rust-mode)
+
 (use-package lsp-mode
   :ensure t
   :hook (rust-mode . lsp)
